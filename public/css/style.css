@@ -91,9 +91,10 @@ hr {
   text-transform: uppercase;
 }
 
-.navbar {
-  margin: 0;
+.navbar-collapse {
+  overflow: hidden;
 }
+
 .navbar-nav {
   display:flex;
   justify-content: center;

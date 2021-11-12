@@ -4,7 +4,7 @@ html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: black  ;
-  background-color: black;
+  background-color: #1a1a1a;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -89,6 +89,10 @@ hr {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ff92ee;
   text-transform: uppercase;
+}
+
+.navbar {
+  margin: 0;
 }
 .navbar-nav {
   display:flex;
@@ -293,9 +297,7 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
-.padding-top100 {
-  padding-top: 100px;
-}
+
 
 .faq-center{
   display: flex;   
@@ -303,7 +305,8 @@ header .intro-text {
 }
 
 #about {
-  
+  width: 100vw;
+  height: 100vh;
   background-color: #1a1a1a;
   color: white !important;
   -webkit-text-stroke-width: 1px;

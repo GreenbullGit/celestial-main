@@ -4,6 +4,7 @@ html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: black  ;
+  background-color: black;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -72,7 +73,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -225,19 +226,15 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+
+.main-logo {
+  width:100vw;
+   height:auto;
+   max-height:100%;
+}
 .intro {
+  padding: 0px;
   
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
-  background-position: calc(100% + 0px) calc(100% + 100px);
-  background-color: #000000  ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0);

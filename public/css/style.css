@@ -236,12 +236,13 @@ a:focus,
 /* Header Section */
 
 .main-logo {
-  width:100vw;
    height:auto;
    max-height:100%;
+   width: 100%;
 }
 .intro {
   padding: 0px;
+  width: 100%;
   
 }
 .intro .overlay {
@@ -309,8 +310,8 @@ header .intro-text {
 }
 
 #about {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #1a1a1a;
   color: white !important;
   -webkit-text-stroke-width: 1px;
@@ -355,6 +356,7 @@ header .intro-text {
   margin-left: 6px;
   list-style: none;
   padding: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 #about .about-text li:before {
   content: "\f00c";
@@ -373,6 +375,7 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 .about-text {
   padding-top: 35px;
@@ -442,6 +445,8 @@ header .intro-text {
 #faq p {
   line-height: 24px;
   margin: 30px 0;
+  font-family: 'Titillium Web', sans-serif;
+
 }
 
 /* Services Section */
@@ -737,7 +742,32 @@ label {
 }
 
 @media (max-width: 768px) {
+  body {
+    text-align: center;
+  };
   #about img {
-    margin: 50px 0;
+    margin: 0;
+  }
+  #faq h2 {
+    text-align: center;
+  }
+  #faq h2::after {
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #about h2::after {
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #menu a.navbar-brand {
+    display: table-cell;
+    float: reverse;
+    font-size: 20px;
   }
 }

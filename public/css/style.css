@@ -106,6 +106,9 @@ hr {
 .social-button {
   margin-top: 5px;
 }
+.pic-box {
+  margin-top: 180px;
+}
 
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -446,7 +449,7 @@ header .intro-text {
   padding-right: 8px;
 }
 #faq img {
-  transform: scale(70%);
+  
   background: rgb(0, 0, 0);
   border-radius: 50px;
   margin: auto;
@@ -756,12 +759,18 @@ label {
 .float-right {
   float: right;
 }
+img { display: block; }
 @media (max-width: 768px) {
   body {
     text-align: center;
-  };
+  }
   #about img {
-    margin: 0;
+    margin-bottom: 10px;
+    transform: none !important;
+  }
+  #faq img {
+    margin-bottom: 20px;
+    transform: none !important;
   }
   #faq h2 {
     text-align: center;
@@ -788,5 +797,9 @@ label {
   }
   .about-text {
     padding-top: 0px;
+  }
+  .pic-box {
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 }

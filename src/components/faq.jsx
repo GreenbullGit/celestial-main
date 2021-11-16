@@ -15,7 +15,7 @@ export const Faq = (props) => {
               <h3>When is the mint date?</h3>
               <p>Official date to be announced, mint to be expected end of November / beginning of December.</p>
               <h3>What will be the price?</h3>
-              <p>Official mint price is to be announced based on SOL's value at the mint date. We are aiming for a mint price below 2 SOL.</p>
+              <p>Official mint price is to be announced based on SOL's value at the mint date. We are aiming for a mint price below 1.5 SOL.</p>
               <h3>Will you donate to any charities? </h3>
               <p>Yes, when we fully mint out we will donate 20.000 USD to a community decided charity organization.</p>
               <h3>Why choose Celestial Body Shop? </h3>
@@ -25,7 +25,7 @@ export const Faq = (props) => {
           <div className="col-xs-12 col-md-6 float-left">
             {" "}
             <div className="pic-box">
-              <img src={"img/asset1.png"} className="img-responsive mint-pic" alt="" />{" "}
+              <img src={"img/banner1.png"} className="img-responsive mint-pic" alt="" />{" "}
             </div>
           </div>
           

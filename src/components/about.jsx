@@ -38,9 +38,9 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             {" "}
-            <div className="pic-box">
+            
               <img src={images[currentImage]} className="img-responsive mint-pic" alt="" />{" "}
-            </div>
+            
           </div>
         </div>
       </div>

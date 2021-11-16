@@ -36,12 +36,12 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-            <a href={'/'}>
+            <a href={'https://twitter.com/celestialbodys'}>
                       <i className='fa fa-lg fa-twitter page-scroll social-button'></i>
                     </a>
             </li>
             <li>
-            <a href={ '/'}>
+            <a href={'https://discord.gg/JkE6qKYqEE'}>
                       <i className='fab fa-lg fa-discord page-scroll social-button'></i>
                     </a>
             </li>

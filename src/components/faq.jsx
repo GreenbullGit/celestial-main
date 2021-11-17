@@ -4,9 +4,9 @@ export const Faq = (props) => {
 
   const [images,setImages] = useState([
     "img/36.png",
-    "img/29.png",
     "img/45.png",
     "img/50.png",
+    "img/3.png",
   ]);
   const [currentImage,setCurrentImage] = useState(0);
   var intervalId;

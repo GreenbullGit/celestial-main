@@ -4,8 +4,9 @@ export const About = (props) => {
 
   const [images,setImages] = useState([
     "img/8.png",
-    "img/12.png",
-    "img/20.png",
+    "img/15.png",
+    "img/45.png",
+    "img/50.png",
   ]);
   const [currentImage,setCurrentImage] = useState(0);
   var intervalId;

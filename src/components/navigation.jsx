@@ -30,7 +30,7 @@ export const Navigation = (props) => {
                     </a>
             </li>
             <li>
-            <a href={'https://discord.gg/JkE6qKYqEE'}>
+            <a href={'https://discord.gg/ez3DrMj3wX'}>
                       <i className='fab fa-lg fa-discord page-scroll social-button'></i>
                     </a>
             </li>

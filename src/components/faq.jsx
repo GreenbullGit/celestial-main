@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 export const Faq = (props) => {
 
   const [images,setImages] = useState([
-    "img/8.png",
-    "img/15.png",
+    "img/36.png",
+    "img/29.png",
     "img/45.png",
     "img/50.png",
   ]);
@@ -36,7 +36,7 @@ export const Faq = (props) => {
               <h3>When is the mint date?</h3>
               <p>Official date to be announced, mint to be expected end of November / beginning of December.</p>
               <h3>What will be the price?</h3>
-              <p>Official mint price is to be announced based on SOL's value at the mint date. We are aiming for a mint price below 1.5 SOL.</p>
+              <p>Final mint price to be announced based on SOL's value at the launch date. We are aiming for a mint price of 2 SOL.</p>
               <h3>Will you donate to any charities? </h3>
               <p>Yes, when we fully mint out we will donate 20.000 USD to a community decided charity organization.</p>
               <h3>Why choose Celestial Body Shop? </h3>

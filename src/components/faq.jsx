@@ -36,7 +36,7 @@ export const Faq = (props) => {
               <h3>When is the mint date?</h3>
               <p>Official date to be announced, mint to be expected early December.</p>
               <h3>What will be the price?</h3>
-              <p>Final mint price to be announced based on SOL's value at the launch date. We are aiming for a mint price of 2 SOL.</p>
+              <p>Final mint price to be announced based on SOL's value at the launch date. We are aiming for a mint price of 1.5 SOL.</p>
               <h3>Will you donate to any charities? </h3>
               <p>Yes, when we fully mint out we will donate 20.000 USD to a community decided charity organization.</p>
               <h3>Why choose Celestial Body Shop? </h3>

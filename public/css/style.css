@@ -107,7 +107,7 @@ hr {
   margin-top: 5px;
 }
 .pic-box {
-  margin-top: 180px;
+  margin-top: 80px;
 }
 
 #menu.navbar-default .navbar-nav > li > a {
@@ -270,6 +270,7 @@ a:focus,
 .intro .row {
   margin-top: 30%;
 }
+.row {margin-top: 60px;}
 
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -378,7 +379,6 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  transform: scale(70%);
   background: rgb(0, 0, 0);
   border-radius: 50px;
   margin: auto;
@@ -390,7 +390,7 @@ header .intro-text {
   text-align: justify;
 }
 .about-text {
-  padding-top: 110px;
+  padding-top: 60px;
 }
 
 #faq {
@@ -802,4 +802,5 @@ img { display: block; }
     margin-top: 0px;
     margin-bottom: 20px;
   }
+  .row{margin-top: 20px;}
 }

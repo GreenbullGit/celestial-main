@@ -2,7 +2,28 @@ import { useState, useEffect } from "react";
 
 export const Faq = (props) => {
 
-  
+  const [images,setImages] = useState([
+    "img/8.png",
+    "img/15.png",
+    "img/45.png",
+    "img/50.png",
+  ]);
+  const [currentImage,setCurrentImage] = useState(0);
+  var intervalId;
+
+  const switchImage = () => {
+    if (currentImage < images.length - 1) {
+      setCurrentImage(currentImage + 1);
+    } else {
+      setCurrentImage(0);
+      }
+    return currentImage;
+  }
+
+  useEffect(() => {
+      window.setTimeout(switchImage, 2000)
+  },[currentImage]);
+
 
   return (
     <div id="faq">
@@ -25,7 +46,7 @@ export const Faq = (props) => {
           <div className="col-xs-12 col-md-6 float-left">
             {" "}
             <div className="pic-box">
-              <img src={"img/banner1.png"} className="img-responsive mint-pic" alt="" />{" "}
+              <img src={images[currentImage]} className="img-responsive mint-pic" alt="" />{" "}
             </div>
           </div>
           

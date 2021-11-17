@@ -40,7 +40,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
             
-              <img src={images[currentImage]} className="img-responsive mint-pic" alt="" />{" "}
+              <img src={"img/banner1.png"} className="img-responsive mint-pic" alt="" />{" "}
             
           </div>
         </div>

@@ -34,7 +34,7 @@ export const Faq = (props) => {
             <div className="faq-text">
               <h2>F.A.Q</h2>
               <h3>When is the mint date?</h3>
-              <p>Official date to be announced, mint to be expected end of November / beginning of December.</p>
+              <p>Official date to be announced, mint to be expected early December.</p>
               <h3>What will be the price?</h3>
               <p>Final mint price to be announced based on SOL's value at the launch date. We are aiming for a mint price of 2 SOL.</p>
               <h3>Will you donate to any charities? </h3>

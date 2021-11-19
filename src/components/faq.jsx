@@ -51,6 +51,23 @@ export const Faq = (props) => {
           </div>
           
         </div>
+        <div className="row" style={{margin: '50px 0px 10px 0px'}}>
+          <div className="col-xs-12" style={{display: 'grid'}}>
+          <ul className='nav navbar-nav navbar-right'>
+            <li>
+            <a href={'https://twitter.com/celestialbodys'} className="footer-links">
+                      <i className='fa fa-lg fa-twitter page-scroll social-button'></i>
+                    </a>
+            </li>
+            <li>
+            <a href={'https://discord.gg/ez3DrMj3wX'} className="footer-links">
+                      <i className='fab fa-lg fa-discord page-scroll social-button'></i>
+                    </a>
+            </li>
+          </ul>
+              
+          </div>
+        </div>
       </div>
     </div>
   );
